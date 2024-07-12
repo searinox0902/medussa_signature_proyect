@@ -178,13 +178,13 @@ body {
 .video-cover::after {
   top: 0;
   left: 0;
-  background-image: url("./../../assets/images/vector_camera_top.png");
+  background-image: url("./../assets/images/vector_camera_top.png");
   background-position: top;
 }
 .video-cover::before {
   bottom: 0;
   left: 0;
-  background-image: url("./../../assets/images/vector_camera_bottom.png");
+  background-image: url("./../assets/images/vector_camera_bottom.png");
   background-position: bottom;
 }
 
