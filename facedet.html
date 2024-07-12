@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="author name" />
+    <meta name="application-name" content="app name" />
+    <meta name="desciption" content="page description" />
+    <meta name="keywords" content="Enter keywords here" />
+    <!-- Social Media Meta tags -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta name="theme-color" content="#222326" />
+    <link rel="apple-touch-icon" sizes="180x180" href="#" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/ico_32.png"
+    />
+    <link rel="icon" type="image/png" sizes="16x16" href="#" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!-- FaceScan -->
+      <div class="facesdet">
+        <h2 class="title">Tomate una selfie</h2>
+
+        <!-- Stream video via webcam -->
+         <div class="video-cover">
+          <div class="video-wrap">
+            <video id="video" class="video" playsinline autoplay></video>
+          </div>
+         </div>
+       
+        <!-- Webcam video snapshot -->
+        <canvas id="canvas" width="280" height="280" style="display: none;"></canvas>
+        <div id="bounding-box" style="display: none;">
+          <div className="scan"></div>
+        </div>
+
+        <button class="btn btn-secondary"  id="snap">Iniciar Camara</button>
+      </div>
+    </main>
+    
+  </body>
+</html>
+
+<script src="js/main.js" defer></script>
+<script
+  defer
+  src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+></script>

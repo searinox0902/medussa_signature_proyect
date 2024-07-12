@@ -1,0 +1,27 @@
+/****
+    **************************************************************************
+    
+    =============================  PDF VIEWVER ================================
+
+    **************************************************************************
+****/
+
+
+.pdfviewver {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.75rem;
+
+    &--wrap {
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+    }
+}
+
+#pdfviewver {
+    width: 100%;
+}

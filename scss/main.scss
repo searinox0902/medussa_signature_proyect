@@ -1,0 +1,15 @@
+// Make sure you have Sass installed glabaly
+// Run ==> sass --watch scss/main.scss css/style.css
+
+// Import base
+@import "./base/colors", "./base/default", "./base/fonts";
+
+// Import Atoms
+@import "./atoms/atoms"; 
+
+// Import Layout
+@import  "./layout/Body";
+
+// Import Component
+@import  "./Components/facesdet", "./Components/camera", "./Components/document", "./components/qrcode",  "./components/signature", "./components/pdfviewver";;
+

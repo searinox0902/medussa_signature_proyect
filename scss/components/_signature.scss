@@ -1,0 +1,50 @@
+/****
+    **************************************************************************
+    
+    =============================  SIGNATURE  ================================
+
+    **************************************************************************
+****/
+
+
+.signature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+/* card signature */
+
+.signature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 16px;
+    width: 100%;
+    min-height: 180px;  
+
+    &--content {
+        padding: 1.75rem;
+        width: 100%;
+        border-bottom: 2px SOLID #696969;
+        max-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+    
+    &--actions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.75rem;
+        gap: 1.45rem;
+    }
+
+
+}
